@@ -1,0 +1,63 @@
+.container {
+    border-radius: 50px;
+    box-shadow: rgba(20, 209, 209, 0.911) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    width: 250px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-image: url("../assets/fondocard.jpg"); */
+    width: auto;
+    border: 10px rgb(14, 218, 45);
+    border-radius: 15px;
+    padding: 10px;
+   cursor: pointer;
+   -moz-osx-font-smoothing: grayscale;
+   backface-visibility: translatez(0);
+   transition: transform 0.25s ease-out;
+
+}
+
+.image {
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+
+.btn {
+    margin: 1em auto 2em;
+    margin-left: 86%;
+    
+    
+    
+}
+
+/* h2 {
+    text-align: center;
+    color: rgb(170, 27, 27);
+    font-weight: bold; */
+
+
+.containerTitle {
+    display: flex;
+    /* justify-content: space-around; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    font-size: small;
+    font-family: "Jokerman", "Segoe Print", sans-serif;
+    color: rgb(27, 104, 172);
+}
+
+.btnFav {
+    background-color: transparent;
+    border-color: transparent;
+
+    margin-right: 86%;
+    
+}
